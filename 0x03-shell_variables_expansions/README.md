@@ -5,3 +5,5 @@
 3-paths - count paths in $PATH variable
 4-global_variablesa - print environment variable
 5-local_variables - list all local variables, environment variables and functions
+6-create_local_variable - add local variable called BEST with the value of School
+7-create_global_variable - add global variable called BEST with the value of School
