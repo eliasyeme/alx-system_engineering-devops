@@ -7,3 +7,4 @@
 5-local_variables - list all local variables, environment variables and functions
 6-create_local_variable - add local variable called BEST with the value of School
 7-create_global_variable - add global variable called BEST with the value of School
+8-true_knowledge - prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
