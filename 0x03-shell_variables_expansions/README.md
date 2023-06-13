@@ -4,3 +4,4 @@
 2-path - add /action to PATH last
 3-paths - count paths in $PATH variable
 4-global_variablesa - print environment variable
+5-local_variables - list all local variables, environment variables and functions
