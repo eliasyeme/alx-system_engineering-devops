@@ -15,3 +15,4 @@
 13-print_float - prints a number with two decimal places, followed by a new line
 100-decimal_to_hexadecimal - convert a number stored in DECIMAL from base 10 to base 16
 101-rot13 - encodes and decodes text using the rot13 encryption. Assume ASCII
+102-odd - print every other line from the input, starting with the first line
