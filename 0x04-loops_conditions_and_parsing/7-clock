@@ -3,7 +3,7 @@
 hours=0
 while [[ $hours -le 12 ]]; do
 	echo "Hour: $hours"
-	minutes=0
+	minutes=1
 	while [[ $minutes -lt 60 ]]; do
 		echo "$minutes"
 		((minutes++))
