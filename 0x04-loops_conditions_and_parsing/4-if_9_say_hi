@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# This script is displaying "Best School"
+# and display hi if the itteration is 9
 i=0
 while [ $i -lt 10 ]; do
 	if [ $i -eq 9 ]; then

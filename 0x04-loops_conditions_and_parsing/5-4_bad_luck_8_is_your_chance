@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# This script is displaying 1 - 10
+# bad luck if the number is 4 and good luck
+# if the number is 8
 i=1
 while [ $i -le 10 ]; do
 	if [[ $i -eq 4 ]]; then
