@@ -49,6 +49,7 @@ On a whiteboard, design a three server web infrastructure that hosts the website
     - Where are SPOF
     - Security issues (no firewall, no HTTPS)
     - No monitoring
+![Distributed web stack](https://imgur.com/hazGlEd.png "Distributed web stack")
 
 ## 2. Secured and monitored web infrastructure
 On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored.
@@ -69,3 +70,4 @@ On a whiteboard, design a three server web infrastructure that hosts the website
     - Why terminating SSL at the load balancer level is an issue
     - Why having only one MySQL server capable of accepting writes is an issue
     - Why having servers with all the same components (database, web server and application server) might be a problem
+![Secured and monitored web stack](https://imgur.com/qQj6tGx.png "Secured and monitored web stack")
