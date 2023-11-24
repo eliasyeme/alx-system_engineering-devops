@@ -26,6 +26,7 @@ On a whiteboard, design a one server web infrastructure that hosts the website t
     - SPOF
     - Downtime when maintenance needed (like deploying new code web server needs to be restarted)
     - Cannot scale if too much incoming traffic
+![Simple web stack](https://i.imgur.com/N7slX4K.png "Simple web stack")
 
 ## 1. Distributed web infrastructure
 On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`.
