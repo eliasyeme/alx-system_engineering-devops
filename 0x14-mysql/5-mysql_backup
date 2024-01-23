@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# backup database
+
+# variables
+day=$(date +"%d")
+month=$(date +"%m")
+year=$(date +"%Y")
+file_name="$day-$month-$year.tar.gz"
+
+# Check if a password was provided as the first argument
+if [ -n "$1" ]; then
+    mysqldump --all-databases -u root --password="$1" > backup.sql
+else
+    mysqldump --all-databases -u root > backup.sql
+fi
+
+tar -czvf "$file_name" backup.sql
+
