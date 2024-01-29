@@ -20,7 +20,8 @@ if __name__ == "__main__":
                         "username": user.get("username"),
                     }
                     for task in requests.get(
-                        "{}/todos".format(url), params={"userId": user.get("id")}
+                        "{}/todos".format(url),
+                        params={"userId": user.get("id")}
                     ).json()
                 ]
                 for user in users
