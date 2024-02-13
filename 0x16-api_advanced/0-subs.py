@@ -8,13 +8,6 @@ import requests
 def number_of_subscribers(subreddit):
     """
     Get the number of subscribers for a given subreddit.
-
-    Args:
-        subreddit (str): The name of the subreddit.
-
-    Returns:
-        int: The number of subscribers for the subreddit,
-             or 0 if the subreddit doesn't exist or an error occurs.
     """
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {"User-Agent": "My User Agent 1.0"}
